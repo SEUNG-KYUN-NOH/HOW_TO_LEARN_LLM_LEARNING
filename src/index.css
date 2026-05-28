@@ -1,0 +1,48 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "D2Coding", ui-monospace, monospace;
+
+  --color-ink: #2C2C2C;
+  --color-ink-2: #4A4E4D;
+  --color-muted-text: #B7B7A4;
+  --color-line-border: #D8D2CB;
+  --color-line-soft: #F0EFEB;
+  --color-paper-bg: #F7F3F0;
+  --color-paper-darker: #F0EFEB;
+  --color-card-white: #ffffff;
+  
+  --color-brand-primary: #6B705C;
+  --color-brand-soft: #E9EDC9;
+  --color-brand-deep: #4A4E4D;
+  
+  --color-brand-accent: #CB997E;
+  --color-brand-accent-soft: #FFE8D6;
+  --color-brand-accent-deep: #6B705C;
+  
+  --color-brand-ok: #6B705C;
+  --color-brand-ok-soft: #E9EDC9;
+}
+
+body {
+  background-color: var(--color-paper-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar to keep it gorgeous and clean */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-line-soft);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-accent);
+  border-radius: 3px;
+}

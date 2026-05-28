@@ -1,0 +1,6 @@
+{
+  "name": "Zero-Query Extraction Deep Dive",
+  "description": "LLM이 대화를 분석하여 검색 쿼리를 생성하기까지의 과정을 7단계로 심층 분석하고 설명해 주는 비전공자용 대화형 웹 아일랜드형 가이드입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
